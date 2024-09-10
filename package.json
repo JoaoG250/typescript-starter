@@ -1,0 +1,22 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "Typescript starter project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.7.24",
+    "@swc/helpers": "^0.5.13",
+    "@types/node": "^22.5.4",
+    "nodemon": "^3.1.4",
+    "regenerator-runtime": "^0.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
