@@ -53,4 +53,18 @@
         trailingComma: "all",
     };
     ```
+1. `pnpm add -D jest ts-jest @types/jest`
+1. jest.config.ts:
+    ```ts
+    import type { Config } from "jest";
+
+    const config: Config = {
+        testEnvironment: "node",
+        transform: {
+            "^.+.tsx?$": ["ts-jest", {}],
+        },
+    };
+
+    export default config;
+    ```
 1. test application: `pnpm run dev`
